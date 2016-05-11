@@ -3,6 +3,16 @@ package conceptosAvanzados;
 import conceptosAvanzados.Operaciones;
 import conceptosAvanzados.CalularIntegral;
 
+/**
+@author Alvaro Cordoba.
+@version V 1.0
+@since 09/05/2016.
+*/
+
+/**
+Clase que calcular Integral con un margen de error
+*/
+
 public class CalcularIntegralError {
 	
 	private double error_aceptable;
@@ -30,6 +40,10 @@ public class CalcularIntegralError {
 		this.gradosLibertdad = gradosLibertdad;
 	}
 
+	/**
+	Metodo que calcula la variable X
+	 */
+	
 	public void calcularX()
 	{
 		CalularIntegral integral = new CalularIntegral();

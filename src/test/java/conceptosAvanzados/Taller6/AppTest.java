@@ -3,13 +3,13 @@ package conceptosAvanzados.Taller6;
 import conceptosAvanzados.CalcularIntegralError;
 import junit.framework.TestCase;
 
-/*
+/**
 	@author Alvaro Cordoba.
 	@version V 1.0
 	@since 09/05/2016.
 */
 
-/*
+/**
 Clase que prueba la clase calcularIntegralError
 */
 
